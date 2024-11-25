@@ -13,3 +13,4 @@ C:\Users\leduc\Desktop\DotNet Angular\Infrastructure\obj\Debug\net9.0\Infrastruc
 C:\Users\leduc\Desktop\DotNet Angular\Infrastructure\obj\Debug\net9.0\refint\Infrastructure.dll
 C:\Users\leduc\Desktop\DotNet Angular\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
 C:\Users\leduc\Desktop\DotNet Angular\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll
+C:\Users\leduc\Desktop\DotNet Angular\Infrastructure\obj\Debug\net9.0\Infrastructure.sourcelink.json

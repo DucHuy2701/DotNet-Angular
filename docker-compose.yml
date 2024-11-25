@@ -1,5 +1,6 @@
 services:
   sql:
+    container_name: dotnetsql
     image: mcr.microsoft.com/azure-sql-edge
     environment:
       ACCEPT-EULA: "1"

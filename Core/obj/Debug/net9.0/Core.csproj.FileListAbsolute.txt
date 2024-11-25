@@ -9,3 +9,4 @@ C:\Users\leduc\Desktop\DotNet Angular\Core\obj\Debug\net9.0\Core.dll
 C:\Users\leduc\Desktop\DotNet Angular\Core\obj\Debug\net9.0\refint\Core.dll
 C:\Users\leduc\Desktop\DotNet Angular\Core\obj\Debug\net9.0\Core.pdb
 C:\Users\leduc\Desktop\DotNet Angular\Core\obj\Debug\net9.0\ref\Core.dll
+C:\Users\leduc\Desktop\DotNet Angular\Core\obj\Debug\net9.0\Core.sourcelink.json
