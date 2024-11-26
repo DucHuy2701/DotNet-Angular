@@ -13,7 +13,6 @@ builder.Services.AddDbContext<StoreContext>(opt => {
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-
 app.MapControllers();
 
 app.Run();
