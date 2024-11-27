@@ -69,6 +69,16 @@ public class ProductsController(IProductRepository repo) : ControllerBase
         return BadRequest("Problem deleting product!");
     }
 
+    [HttpGet("brands")]
+    public async Task<ActionResult<IReadOnlyList<string>>> GetBrands(){
+        return Ok(await repo.GetBrandAsync());
+    }
+
+    [HttpGet("types")]
+    public async Task<ActionResult<IReadOnlyList<string>>> GetTypes(){
+        return Ok(await repo.GetTypeAsync());
+    }
+
     private Boolean isExist(int id)
     {
         return repo.IsExist(id);
