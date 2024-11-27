@@ -6,7 +6,7 @@ namespace Core.Interfaces;
 public interface IProductRepository
 {
     //Basic CRUD
-    Task<IReadOnlyList<Product>> GetProductsAsync();
+    Task<IReadOnlyList<Product>> GetProductsAsync(string? brand, string? type);
     Task<Product?> GetProductByIdSync(int id);
     void AddProduct(Product product);
     void UpdateProduct(Product product);
@@ -14,7 +14,8 @@ public interface IProductRepository
     bool IsExist(int id);
     Task<bool> SaveChangesAsync();
 
-    //Search Brand-Type
+    //Get Brands-Types
     Task<IReadOnlyList<string>> GetBrandAsync();
     Task<IReadOnlyList<string>> GetTypeAsync();
+
 }
