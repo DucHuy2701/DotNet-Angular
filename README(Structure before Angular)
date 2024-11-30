@@ -11,7 +11,7 @@ API:
         ExceptionMiddleware
     DTOs
         CreateProductDto
-Core
+Core:
     Entities
         BaseEntity
         Product
@@ -24,7 +24,7 @@ Core
         ProductSpecParams
         BrandListSpecification
         TypeListSpecification
-Infrastructure
+Infrastructure:
     Data
         SeedData
             product.json
