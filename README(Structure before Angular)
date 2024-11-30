@@ -1,0 +1,36 @@
+API:
+    Controllers
+        BaseApiController
+        ProductsController
+        BugController
+    Requesthelpers
+        Pagination
+    Erros
+        ApiErrorResponse
+    Middleware
+        ExceptionMiddleware
+    DTOs
+        CreateProductDto
+Core
+    Entities
+        BaseEntity
+        Product
+    Interfaces
+        IGenericRepository
+        ISpecification
+    Specifications
+        BaseSpecification
+        ProductSpecification
+        ProductSpecParams
+        BrandListSpecification
+        TypeListSpecification
+Infrastructure
+    Data
+        SeedData
+            product.json
+        StoreContext
+        StoreContextSeed
+        GenericRepository
+        SpecificationEvaluator
+    Config
+        ProductConfiguration
